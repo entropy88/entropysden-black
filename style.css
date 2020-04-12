@@ -1,0 +1,170 @@
+body {
+  color: aliceblue;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+#chaosIcon {
+  height: 64px;
+  width: 64px;
+  background-color: #699e3c;
+  border-radius: 25px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+}
+
+.menuDiv {
+  grid-area: 1 / 1 / 2 / 8;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+.buttonsMenu {
+  background-color: black;
+  color: aliceblue;
+  padding: 1%;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5%;
+  border: 1px solid gray;
+
+}
+
+
+
+input[type=text]:disabled {
+  background: #62655D;
+}
+
+
+
+.contentDiv {
+  grid-area: 2 / 2 / 2 / 7;
+  padding: 2%;
+  background-color: rgba(194, 194, 194, 0.075);
+  border-radius: 25px;
+  border: 1px solid gray;
+}
+
+
+#main {
+  width: 100%;
+}
+
+#buttonsBar {
+  display: flex;
+  align-content: space-between;
+}
+
+
+#authorsDiv {
+  height: auto;
+  overflow: auto;
+  position: relative;
+
+}
+
+
+
+.buttons {
+  float: right;
+  background-color: whitesmoke;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 2%;
+  margin-left: 16px;
+  margin-bottom: 1%;
+
+}
+
+
+.buttonsMain {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  height: 50px;
+  font-weight: bold;
+  margin: 2px;
+  flex-basis: 100%;
+}
+
+
+#recordField {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 25px;
+  border: 1px solid black;
+  height: 200px;
+  width: 100%;
+  overflow: auto;
+  float: bottom;
+
+}
+
+.clarification {
+  font-style: italic;
+}
+
+#counter {
+  border-style: solid;
+  border: 3px solid black;
+}
+
+#pagesArticleD {
+  display: none;
+  width: 100%;
+}
+
+.inputField {
+  border-radius: 25px;
+  width: 70%;
+  float: right;
+}
+
+.authorInputField {
+  border-radius: 25px;
+  width: 70%;
+  float: right;
+}
+
+
+.label {
+  padding-left: 10px;
+  border-radius: 25px;
+}
+
+.periodical {
+  display: none;
+}
+
+.articleComp {
+  display: none;
+}
+
+.online {
+  display: none;
+}
+
+
+.handles {
+  box-shadow: 5px 5px black;
+  border-radius: 25px;
+}
+
+
+.footer {
+  flex-shrink: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
