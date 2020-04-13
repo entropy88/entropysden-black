@@ -1,4 +1,5 @@
-body {
+
+body {  
   color: aliceblue;
   background-color: #2d3436;
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
@@ -44,18 +45,29 @@ h3 {
 
 .pageDescription {
   grid-area: 2 / 1 / 3 / 7;
-  padding: 2%;
+  text-align: center;
   background-color: rgba(194, 194, 194, 0.075);
   border-radius: 25px;
   border: 1px solid gray;
+  display: block;
 }
 
-.articlesList{
-   grid-area: 2 / 7 / 4 / 8; 
-   scroll-behavior: auto;
+#gtbgBaner {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  display: block;
+
 }
 
-.listItem{
+.articlesList {
+  grid-area: 2 / 7 / 4 / 8;
+  scroll-behavior: auto;
+}
+
+.listItem {
   cursor: pointer;
 }
 
@@ -67,12 +79,6 @@ h3 {
   border: 1px solid gray;
 
 }
-
-#gtbgBaner {
-  border: 1px solid black;
-  display: block;
-}
-
 
 
 #articleImage {
